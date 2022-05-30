@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../script/jquery.validate.min.js"></script>
+    <script src="../css/font-awesome-4.7.0/css/font-awesome.css"></script>
+    
+    <script>
+      var i1 = localStorage.getItem('i1');
+      var si1 = localStorage.getItem('si1');
+      var i2 = localStorage.getItem('i2');
+      var clr2 = localStorage.getItem('clr2');
+      var si2 = localStorage.getItem('si2');
+      var i3 = localStorage.getItem('i3');
+      var si3 = localStorage.getItem('si3');
+      var total1 = localStorage.getItem('total1').value;
+      var ccf1 = localStorage.getItem('ccf1');
+      var ccl1 = localStorage.getItem('ccl1');
+      var f1 = localStorage.getItem('f1');
+      var l1 = localStorage.getItem('l1');
+      var em1 = localStorage.getItem('email1');
+      var cn1 = localStorage.getItem('cn1');
+      var street1 = localStorage.getItem('street1');
+      var street2 = localStorage.getItem('street2');
+      var ct1 = localStorage.getItem('ct1');
+      var st1 = localStorage.getItem('st1');
+      var z1 = localStorage.getItem('z1');
+      var count1 = localStorage.getItem('count1');
+      var gift2 = localStorage.getItem('gift2');
+      var f2 = localStorage.getItem('f2');
+      var l2 = localStorage.getItem('l2');
+      var cn2 = localStorage.getItem('cn2');
+      var same = localStorage.getItem('same');
+      var street3 = localStorage.getItem('street3');
+      var street4 = localStorage.getItem('street4');
+      var ct2 = localStorage.getItem('ct2');
+      var st2 = localStorage.getItem('st2');
+      var z2 = localStorage.getItem('z2');
+      var count2 = localStorage.getItem('count2');
+      var request2 = localStorage.getItem('request2');
+
+    </script>
+  
+  </head>
+  <body>
+    <form action="" >
+      <table class="t2">
+        <tr class="tborder twidth">
+          <th class="tborder">White T-Shirt(Quantity)</th>
+          <td id="i1" class="tborder"><script>document.write(i1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">White T-Shirt(Size)</th>
+          <td id="si1" class="tborder"><script>document.write(si1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Sweatshirt(Quantity)</th>
+          <td id="i2" class="tborder"><script>document.write(i2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Sweatshirt(Color)</th>
+          <td id="clr2" class="tborder"><script>document.write(clr2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Sweatshirt(Size)</th>
+          <td id="si2" class="tborder"><script>document.write(si2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Shoes(Quantity)</th>
+          <td id="i3" class="tborder"><script>document.write(i3)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Shoes(Size)</th>
+          <td id="si3" class="tborder"><script>document.write(si3)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Total</th>
+          <td id="total1" class="tborder"><script>document.write(total1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Credit Card First Name</th>
+          <td id="ccf1" class="tborder"><script>document.write(ccf1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Credit Card Last Name</th>
+          <td id="ccl1" class="tborder"><script>document.write(ccl1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">First Name</th>
+          <td id="f1" class="tborder"><script>document.write(f1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Last Name</th>
+          <td id="l1" class="tborder"><script>document.write(l1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Email</th>
+          <td id="em1" class="tborder"><script>document.write(em1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Contact Number</th>
+          <td id="cn1" class="tborder"><script>document.write(cn1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Billing Address Street 1</th>
+          <td id="street1" class="tborder"><script>document.write(street1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Billing Address Street 2</th>
+          <td id="street2" class="tborder"><script>document.write(street2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Billing Address City</th>
+          <td id="ct1" class="tborder"><script>document.write(ct1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Billing Address State</th>
+          <td id="st1" class="tborder"><script>document.write(st1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Billing Address ZipCode</th>
+          <td id="z1" class="tborder"><script>document.write(z1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Billing Address Country</th>
+          <td id="count1" class="tborder"><script>document.write(count1)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Send Gift</th>
+          <td id="gift2" class="tborder"><script>document.write(gift2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">First Name</th>
+          <td id="f2" class="tborder"><script>document.write(f2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Last Name</th>
+          <td id="l2" class="tborder"><script>document.write(l2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Contact Number</th>
+          <td id="cn2" class="tborder"><script>document.write(cn2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Same as Billing Address</th>
+          <td id="same" class="tborder"><script>document.write(same)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Shipping Address Street 1</th>
+          <td id="street3" class="tborder"><script>document.write(street3)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Shipping Address Street 2</th>
+          <td id="street4" class="tborder"><script>document.write(street4)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Shipping Address City</th>
+          <td id="ct2" class="tborder"><script>document.write(ct2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Shipping Address State</th>
+          <td id="st2" class="tborder"><script>document.write(st2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Shipping Address ZipCode</th>
+          <td id="z2" class="tborder"><script>document.write(z2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Shipping Address Country</th>
+          <td id="count2" class="tborder"><script>document.write(count2)</script></td>
+        </tr>
+        <tr class="tborder twidth">
+          <th class="tborder">Additional Request</th>
+          <td id="request2" class="tborder"><script>document.write(request2)</script></td>
+        </tr>
+      </table>
+    </form>
+    <script src="../script/script.js"></script>
+    <script src="../css/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+  </body>
+  </html>
